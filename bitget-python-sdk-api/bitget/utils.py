@@ -2,9 +2,9 @@ import base64
 import hmac
 import time
 
-from Crypto.Hash import SHA256
-from Crypto.PublicKey import RSA
-from Crypto.Signature import PKCS1_v1_5 as pk
+from Crypto.Hash import SHA256 # type: ignore
+from Crypto.PublicKey import RSA # type: ignore
+from Crypto.Signature import PKCS1_v1_5 as pk # type: ignore
 
 from . import consts as c
 
